@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Table",
+        "description": "Furnite",
+        "price": 200,
+        "thumbnail": "./images/table.jpg",
+        "code": "01",
+        "stock": 25
+    },
+    {
+        "id": 2,
+        "title": "Chair",
+        "description": "Furniture",
+        "price": 100,
+        "thumbnail": "./images/chair.jpg",
+        "code": "02",
+        "stock": 30
+    },
+    {
+        "id": 3,
+        "title": "Sofa",
+        "description": "Comfortable seating",
+        "price": 500,
+        "thumbnail": "./images/sofa.jpg",
+        "code": "03",
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "title": "Bed",
+        "description": "Sleeping comfort",
+        "price": 700,
+        "thumbnail": "./images/bed.jpg",
+        "code": "04",
+        "stock": 20
+    },
+    {
+        "id": 5,
+        "title": "Desk",
+        "description": "Workstation",
+        "price": 300,
+        "thumbnail": "./images/desk.jpg",
+        "code": "05",
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "title": "Lamp",
+        "description": "Lighting fixture",
+        "price": 50,
+        "thumbnail": "./images/lamp.jpg",
+        "code": "06",
+        "stock": 50
+    },
+    {
+        "id": 7,
+        "title": "Bookshelf",
+        "description": "Storage solution",
+        "price": 250,
+        "thumbnail": "./images/bookshelf.jpg",
+        "code": "07",
+        "stock": 18
+    },
+    {
+        "id": 8,
+        "title": "Cabinet",
+        "description": "Storage unit",
+        "price": 400,
+        "thumbnail": "./images/cabinet.jpg",
+        "code": "08",
+        "stock": 12
+    },
+    {
+        "id": 9,
+        "title": "Rug",
+        "description": "Floor covering",
+        "price": 150,
+        "thumbnail": "./images/rug.jpg",
+        "code": "09",
+        "stock": 22
+    },
+    {
+        "id": 10,
+        "title": "Mirror",
+        "description": "Reflective surface",
+        "price": 80,
+        "thumbnail": "./images/mirror.jpg",
+        "code": "10",
+        "stock": 35
+    }
+]
