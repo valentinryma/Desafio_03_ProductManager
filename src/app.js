@@ -1,6 +1,8 @@
 const express = require('express'); // Importamos la libreria de ExpressJS
 const app = express(); // Creamos una instancia de express. 
-const ProductManager = require('./ProductManager');
+const ProductManager = require('./ProductManager'); // Importamos la Clase Product Manager.
+
+const manager = new ProductManager('./products.json'); // Creamos una instancia de Product Manager.
 
 app.get('/', (req, res) => {
     const mensaje = `
@@ -17,7 +19,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/products', async (req, res) => {
-    const manager = new ProductManager('./products.json');
     const existingProducts = await manager.getProducts();
 
     // Query Params: Limit
@@ -36,7 +37,6 @@ app.get('/products', async (req, res) => {
 
 app.get('/products/:pid', async (req, res) => {
     const id = +req.params.pid;
-    const manager = new ProductManager('./products.json');
     const product = await manager.getProductById(id);
 
     res.json(product)
